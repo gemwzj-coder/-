@@ -65,6 +65,8 @@ if _env_deepseek_api_key:
     DEEPSEEK_API_KEY = _env_deepseek_api_key
 
 MANAGER_LIST = list(dict.fromkeys([
+    # Public demo entities. All are fictional and exist only in knowledge.example.txt.
+    '远见量化', '星河资产', '云岭投资',
     '衍复', '幻方', '九坤', '宽德', '黑翼', '灵均', '鸣石', '平方和',
     '世纪前沿', '托特', '磐松', '子午', '稳博', '茂源', '诚奇', '天演',
     '明汯', '龙旗', '金锝', '千象', '因诺', '启林', '半鞅', '量派',
