@@ -91,21 +91,6 @@ python -m unittest discover -s tests -v
 └── .github/workflows/         # GitHub Actions 基础检查
 ```
 
-## 发布到 GitHub 前
-
-安装 Git for Windows 后，在项目根目录执行：
-
-```powershell
-git init
-git add .
-git status
-git commit -m "feat: publish RAG research workbench demo"
-git branch -M main
-git remote add origin <your-repository-url>
-git push -u origin main
-```
-
-提交前务必检查 `git status`：不应看到 `.env`、`local_config.py`、`knowledge.txt`、`chroma_db*`、`cache/`、简历产物或日志。若密钥曾经进入任意 Git 历史，请先在服务商后台轮换该密钥。
 
 ## License
 
