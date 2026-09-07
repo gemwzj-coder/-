@@ -1,0 +1,17 @@
+# Runtime dependencies for the demo application.
+# Install with: python -m pip install -r requirements.txt
+gradio>=5.0,<7.0
+langchain-chroma>=0.2,<2.0
+langchain-core>=0.3,<2.0
+langchain-huggingface>=0.1,<2.0
+langchain-openai>=0.3,<2.0
+langgraph>=0.2,<2.0
+matplotlib>=3.8,<4.0
+python-dotenv>=1.0,<2.0
+sentence-transformers>=3.0,<6.0
+torch>=2.2,<3.0
+transformers>=4.45,<6.0
+
+# Optional utility: generate local resume variants. It is not required to run
+# the RAG demo, and generated resumes are excluded from version control.
+python-docx>=1.1,<2.0

@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" role="img" aria-label="Hello Kitty 小猫卡通形象">
+  <defs>
+    <radialGradient id="luluBg" cx="50%" cy="35%" r="70%">
+      <stop offset="0%" stop-color="#FFF7E9"/>
+      <stop offset="100%" stop-color="#FFE9D2"/>
+    </radialGradient>
+  </defs>
+  <circle cx="110" cy="110" r="104" fill="url(#luluBg)"/>
+  <g fill="#FFD9A0">
+    <path d="M26 46 l2.4 6.2 6.2 2.4 -6.2 2.4 -2.4 6.2 -2.4 -6.2 -6.2 -2.4 6.2 -2.4 Z"/>
+    <path d="M196 158 l1.8 4.8 4.8 1.8 -4.8 1.8 -1.8 4.8 -1.8 -4.8 -4.8 -1.8 4.8 -1.8 Z"/>
+    <circle cx="40" cy="176" r="3.2"/>
+    <circle cx="182" cy="48" r="3.2"/>
+    <circle cx="182" cy="150" r="2.4"/>
+    <circle cx="36" cy="72" r="2.4"/>
+  </g>
+  <!-- 小脚 -->
+  <ellipse cx="92" cy="186" rx="11" ry="7" fill="#FFFDF7"/>
+  <ellipse cx="128" cy="186" rx="11" ry="7" fill="#FFFDF7"/>
+  <!-- 小短手 -->
+  <ellipse cx="70" cy="150" rx="8" ry="12" fill="#FFFDF7"/>
+  <ellipse cx="150" cy="150" rx="8" ry="12" fill="#FFFDF7"/>
+  <!-- 红裙子 -->
+  <path d="M84 142 Q110 130 136 142 L144 180 Q110 190 76 180 Z" fill="#E85D75"/>
+  <!-- 头：圆润白脸 -->
+  <circle cx="110" cy="96" r="58" fill="#FFFDF7"/>
+  <!-- 耳朵 -->
+  <path d="M64 62 L70 24 L98 58 Z" fill="#FFFDF7" stroke="#FFFDF7" stroke-width="7" stroke-linejoin="round"/>
+  <path d="M156 62 L150 24 L122 58 Z" fill="#FFFDF7" stroke="#FFFDF7" stroke-width="7" stroke-linejoin="round"/>
+  <path d="M72 56 L75 36 L90 52 Z" fill="#FFB9CD" stroke="#FFB9CD" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M148 56 L145 36 L130 52 Z" fill="#FFB9CD" stroke="#FFB9CD" stroke-width="4" stroke-linejoin="round"/>
+  <!-- 粉色蝴蝶结（左耳） -->
+  <path d="M74 40 C62 22 46 28 46 42 C56 46 66 44 74 40 Z" fill="#F26E9F"/>
+  <path d="M74 40 C84 20 100 26 100 42 C90 46 80 44 74 40 Z" fill="#F26E9F"/>
+  <circle cx="74" cy="40" r="6" fill="#E85D75"/>
+  <!-- 眼睛 -->
+  <ellipse cx="84" cy="96" rx="5.5" ry="8" fill="#3B2A20"/>
+  <ellipse cx="136" cy="96" rx="5.5" ry="8" fill="#3B2A20"/>
+  <!-- 腮红 -->
+  <ellipse cx="74" cy="112" rx="7" ry="4.5" fill="#FFB8C4" opacity="0.75"/>
+  <ellipse cx="146" cy="112" rx="7" ry="4.5" fill="#FFB8C4" opacity="0.75"/>
+  <!-- 鼻子（经典无嘴） -->
+  <ellipse cx="110" cy="107" rx="4.5" ry="3.2" fill="#FFC93C"/>
+  <!-- 胡须 -->
+  <g stroke="#D9C3A6" stroke-width="2.5" stroke-linecap="round">
+    <line x1="58" y1="96" x2="88" y2="100"/>
+    <line x1="56" y1="108" x2="88" y2="109"/>
+    <line x1="60" y1="120" x2="89" y2="116"/>
+    <line x1="162" y1="96" x2="132" y2="100"/>
+    <line x1="164" y1="108" x2="132" y2="109"/>
+    <line x1="160" y1="120" x2="131" y2="116"/>
+  </g>
+</svg>
